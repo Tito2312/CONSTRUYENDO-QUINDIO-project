@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estadisticas.css">
 </head>
 <body>
     <header>
@@ -41,32 +41,29 @@
     </header>
     <main>
       <div class="buttons">
-        <a href=""><button><i class="fa-solid fa-house"></i><h5>INICIO</h5></button></a>
+        <a href="index.html"><button><i class="fa-solid fa-house"></i><h5>INICIO</h5></button></a>
         <a href=""><button><img src="img/quindio-removebfg-preview.png" alt="" id="quindio-map"><h5>QUINDIO</h5></button></a>
         <a href=""><button><i class="fa-brands fa-pagelines"></i><h5>AMBIENTAL</h5></button></a>
         <a href=""><button><i class="fa-regular fa-handshake"></i><h5>ALIADOS DEL PROYECTO</h5></button></a>
         <a href=""><button><i class="fa-regular fa-newspaper"></i><h5>BUENAS PRACTICAS</h5></button></a>
         <a href=""><button><i class="fa-solid fa-scale-balanced"></i><h5>NORMATIVIDAD</h5></button></a>
-        <a href="estadisticas.html"><button><i class="fa-sharp fa-solid fa-chart-column"></i><h5>ESTADISTICAS DEL SECTOR</h5></button></a>
+        <a href="estadisticas.html" id="stats"><button id="stats-button"><i class="fa-sharp fa-solid fa-chart-column"></i><h5>ESTADISTICAS DEL SECTOR</h5></button></a>
         <a href=""><button><i class="fa-sharp fa-solid fa-unlock"></i><h5>DATOS ABIERTOS</h5></button></a>
         <a href=""><button><i class="fa-solid fa-wrench"></i><h5>SERVICIOS</h5></button></a>
       </div>
-      <section id="slider">
-        <div class="slider">
-          <ul>
-            <li><img src="img/quindio1.jpg" alt=""></li>
-            <li><img src="img/quindio2.jpg" alt=""></li>
-            <li><img src="img/quindio3.jpg" alt=""></li>
-            <li><img src="img/quindio4.jpg" alt=""></li>
-          </ul>
+      <div id="container">
+        <div id="text-container">
+            <h3 id="text">REPORTES, ANALISIS INDICADORES Y ESTADISTICAS SOBRE LA CONSTRUCCION EN EL DEPARTAMENTO DEL QUINDIO</h3>
         </div>
-      </section>
-      <div id="div2">
-        <h3 >ULTIMAS NOVEDADES</h3>
-        <div id="div-images">
-          <img src="img/Imagen1.png" alt="">
-          <img src="img/Imagen2.png" alt="">
-          <img src="img/Imagen3.png" alt="">
+        <div id="container-cards">
+            <div class="cards"><a href="https://app.powerbi.com/view?r=eyJrIjoiOTM3ZGEwNTUtYmIxNS00NWVlLWE1MDItMWYxMDFiZDliNjhhIiwidCI6ImNiYzJjMzgxLTJmMmUtNGQ5My05MWQxLTUwNmM5MzE2YWNlNyIsImMiOjR9" class="a-cards"><img src="img/licencias.png" alt="" class="img-card"><h5 class="text-card">LICENCIAS DE CONSTRUCCION</h5></a></div>
+            <div class="cards"><a href=""class="a-cards"><img src="img/cementoGris.jpg" alt=""class="img-card"><h5 class="text-card">CEMENTO GRIS</h5></a></div>
+            <div class="cards"><a href=""class="a-cards"><img src="img/concreto.png" alt=""class="img-card"><h5 class="text-card">CONCRETO PREMEZCLADO</h5></a></div>
+            <div class="cards"><a href=""class="a-cards"><img src="img/indicadores.png" alt=""class="img-card"><h5 class="text-card">INDICADORES ECONOMICOS</h5></a></div>
+            <div class="cards"><a href=""class="a-cards"><img src="img/suelos.png" alt=""class="img-card"><h5 class="text-card">SUELOS</h5></a></div>
+            <div class="cards"><a href=""class="a-cards"><img src="img/arquitectura.png" alt=""class="img-card" ><h5 class="text-card" >ARQUITECTURA</h5></a></div>
+            <div class="cards"><img src="" alt=""><h5>ARQUITECTURA</h5></div>
+            <div class="cards"><img src="" alt=""><h5>ARQUITECTURA</h5></div>
         </div>
       </div>
     </main>

@@ -53,7 +53,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
 #header-buttons button{
@@ -245,61 +244,98 @@ main{
 
 }
 
-#slider{
-    margin-top: 3rem;
-    width: 90%;
-    height: 370px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
-.slider{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-}
-    
-.slider ul{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    animation: cambio 20s infinite alternate ease-in-out;
-}
-    
-.slider li{
-    list-style: none;
-    background-color: blue;
-}
-    
-.slider img{
-    width: 95vw;
-    height: 100%;
-    background-size: cover; 
-    background-size: cover;
+#stats{
+
+    height: 110%;
     
 }
 
-@keyframes cambio {
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-        
-    25%{margin-left: -220%;}
-    45%{margin-left: -220%;}
-        
-    50%{margin-left: -434%;}
-    70%{margin-left: -434%;}
-        
-    75%{margin-left: -646%;}
-    100%{margin-left: -646%;}
+#stats-button{
+    background-color: #6fa8dc;
 }
+/**/
+
+#container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#text-container{
+
+    width: 99.9%;
+    height: 120px;
+    background-color: #6fa8dc;
+    border: solid 1px ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: #10406c;
+}
+
+#text{
+
+    margin-top: 25px;
+}
+#container-cards{
+
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.a-cards{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cards{
+
+    width: 23%;
+    height: 350px;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-card{
+
+    width: 90%;
+    height: 83%;
+}
+
+.text-card{
+
+    width: 90%;
+    height: 10%;
+    background-color: #fff;
+    margin-top: 8px;
+    border: #000 solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f567b;
+    font-size: 20px;
+
+}
+
+/**/
 
 #div2{
 
@@ -313,8 +349,6 @@ main{
 #div2 h3{
 
     margin: 1%;
-    color: #fff;
-    text-decoration: underline;
 }
 
 #div-images{
